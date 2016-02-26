@@ -5,11 +5,13 @@ A small and light-weighted resume generator based on Jade (a HTML pre-compile la
 
 ## Usage
 1. Download and install dependencies. Ensuring you have already installed Node.js.
-  ```shell
+  
+  ```bash
   npm install
   ```
 2. After modification of `data.yml`, run command below in the project directory. This command will generate a HTML file `index.html` in `./dist` directory.
-  ```shell
+  
+  ```bash
   node index.js
   ```
 3. Your resume will be showed in your default browser.
