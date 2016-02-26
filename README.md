@@ -16,7 +16,7 @@ A small and light-weighted resume generator based on Jade (a HTML pre-compile la
 
 - Clean grammar of YAML. No ugly tags and extra curly braces.
 - Easy to use. All you have to do are filling the `data.yml` and run the simple command.
-- Themes. Other themes will be designed and developed in the future.
+- Themes. More themes will be designed and developed in the future.
 
 ## License
 Resume Generator is released under the MIT license. See LICENCE for details.
