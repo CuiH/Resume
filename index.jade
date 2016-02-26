@@ -1,0 +1,38 @@
+doctype html
+html(lang='zh-CN')
+  include ./includes/head.jade
+  include ./includes/mixins.jade
+  
+  - var trim = function(s) {return s.replace(/[\u4E00-\u9FA5\uFF0C](\s)[\u4E00-\u9FA5]/g, function(w){ return w[0] + w[2];}); };
+  
+  body
+    .mask
+    .wrapper
+      .col-2
+        include ./includes/contact.jade
+        .left-col
+          +section(education.title)
+            each item in education.experience
+              +item(item.school, item.major, item.duration)
+          +section(language.title)
+            each item in language.items
+              +item(item.name, item.level)
+          +section(skills.title)
+            each item in skills.items
+              +mlist(item.name, item.children)
+          +section(awards.title)
+            each item in awards.contests
+              +item(item.name, item.award, item.time, item.description)
+      .col-4
+        +section(experiences.title)
+          each item in experiences.jobs
+            +item(item.title, item.company, item.duration, trim(item.detail))
+        +section(projects.title)
+          each item in projects.items
+            +item(item.name, item.role, item.duration, trim(item.detail))
+        +section(activities.title)
+          each item in activities.items
+            +item(item.name, item.role, item.duration, trim(item.detail))
+    include ./includes/footer.jade
+    include ./includes/popover.jade
+    script(src="js/main.js")

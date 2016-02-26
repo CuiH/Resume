@@ -1,0 +1,114 @@
+title: RESUME | 李宇捷
+portfolio_url: 'http://portfolio.yujie.li'
+pdf_url: 'http://7lryxc.com1.z0.glb.clouddn.com/lyj-resume.pdf'
+logo_url: 'assets/logo.png'
+job: '交互设计师'
+
+information:
+  name: 李宇捷
+  alias: Yick
+  link: yujie.li
+  email: im_yujie@foxmail.com
+
+education:
+  title: 教育经历
+  experience:
+    - school: 中山大学
+      major: 软件工程（本科）
+      duration: 2013 - 2017
+
+language:
+  title: 语言水平
+  items:
+    - name: English
+      level: 大学六级 CET-6
+
+skills:
+  title: 技能评价
+  items:
+    - name: 设计
+      children:
+        - Sketch
+        - Photoshop
+        - Illustrator
+    - name: 编程
+      children:
+        - HTML + CSS
+        - JavaScript
+        - Python
+        - Java
+
+awards:
+  title: 获奖经历
+  contests:
+    - name: MIUI 主题设计大赛
+      award: 最佳创意奖
+      time: 2014.07
+    - name: 中山大学“廉洁修身”平面公益广告大赛
+      award: 三等奖
+      time: 2014.11
+    - name: 国际基因工程机器大赛
+      award: 金奖
+      time: 2015.11
+      description: 团队 SYSU-China，负责网页开发
+
+experiences:
+  title: 工作经历
+  jobs:
+    - title: 联合创始人 & 设计师
+      company: 广州市氢年说网络科技有限公司
+      duration: 2015.02 - 2015.08
+      detail: > 
+        主要负责「青年读诗」iOS App 交互设计与视觉界面设计
+        功能主要包括播放器、诗文阅读等。项目过程中对 iOS 组
+        件有了更加详细的了解。目前 iOS 应用已在 App Store 
+        上线，并被包括腾讯创业、36氪等多家媒体报道。此外，在
+        团队中还负责设计并开发 Launch Page 网页、分享页面的
+        设计与开发。
+    - title: 前端工程师（实习）
+      company: 广州市龙驹网络科技有限公司
+      duration: 2015.01 - 2015.02
+      detail: >
+        参与公司官网重构，负责应用数据统计分析系统网站前端开发，
+        参与繁星 Hybrid Web App 前端重构。其中在数据统计分析
+        系统前端开发时首次在公司使用模块化开发，使用 Sea.js 作
+        为模块加载器，并且利用 JavaScript 面向对象编程开发网页
+        组件(交互行为与外观)，对网页部件类型、功能、设计惯例有所
+        了解。
+
+projects:
+  title: 项目经历
+  items:
+    - name: 告白网
+      role: 独立设计与开发
+      duration: 2014.01 - 2014.02
+      detail: >
+        首个独立设计与开发的网页应用，它是一个匿名的社交发布平台，
+        项目中采用了响应式网页设计，由微信朋友圈传播，首日访问量破千，
+        并得到众多用户反馈，次日设计并上线了「搜索表白」功能。
+
+    - name: SYSU Course 中山大学第三方评课网站
+      role: 负责设计与前端开发
+      duration: 2014.01 - 2014.02
+      detail: >
+        解决学生课程选择困难的问题，设计开发了该网站。采用了 PC 端与
+        移动端分离设计，实现了拼音（首字母）搜索功能、五星评分部件、
+        输入框提示等功能。但遗憾没能成功上线，目前代码开源在 <a href="https://github.com/yickli/SYSU-Course">Github</a>。
+
+    - name: HolaWith(哈啰喂) Android App
+      role: 负责 UI/UX 设计
+      duration: 2014.01 - 2014.02
+      detail: >
+        HolaWith 是一款基于活动的运行在 Android 平台的社交应用，在
+        项目中，我主要负责交互设计与视觉界面设计，采用了 Material Design 
+        的设计风格，设计了聊天、朋友圈等交互行为等。
+
+activities:
+  title: 学生活动
+  items:
+    - name: 中山大学羽墨轩数字媒体技术应用俱乐部
+      role: 主席
+      duration: 2015 - 2016
+      detail: >
+        负责中山大学学生软件技术发展中心(简称「中心」）网站设计，参与
+        中心宣传视频动画制作，负责创意原型设计、UI 设计等入门培训。
