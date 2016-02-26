@@ -16,8 +16,8 @@ A small and light-weighted resume generator based on Jade (a HTML pre-compile la
 
 ## Features
 
-- Clean grammar of YAML. No ugly tags and extra curly braces.
-- Easy to use. All you have to do are filling the `data.yml` and run the simple command.
+- Clean grammar of YAML. No ugly tags and extra curly braces or quotes.
+- Easy to use. All you have to do are filling the `data.yml` and running the simple command.
 - Themes. More themes will be designed and developed in the future.
 
 ## License
