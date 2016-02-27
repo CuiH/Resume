@@ -8,8 +8,8 @@ mixin item(title, subtitle, ps, description)
         span.item-duration= ps
     p.item-description!= description
 
-mixin section(title)
-  section
+mixin section(id, title)
+  section(id="#{id}")
     h2.section-title= title
     if block
       block

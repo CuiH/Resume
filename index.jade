@@ -11,26 +11,26 @@ html(lang='zh-CN')
       .col-2
         include ./includes/contact.jade
         .left-col
-          +section(education.title)
+          +section('education', education.title)
             each item in education.experience
               +item(item.school, item.major, item.duration)
-          +section(language.title)
+          +section('language', language.title)
             each item in language.items
               +item(item.name, item.level)
-          +section(skills.title)
+          +section('skills', skills.title)
             each item in skills.items
               +mlist(item.name, item.children)
-          +section(awards.title)
+          +section('awards', awards.title)
             each item in awards.contests
               +item(item.name, item.award, item.time, item.description)
       .col-4
-        +section(experiences.title)
+        +section('experiences', experiences.title)
           each item in experiences.jobs
             +item(item.title, item.company, item.duration, trim(item.detail))
-        +section(projects.title)
+        +section('projects', projects.title)
           each item in projects.items
             +item(item.name, item.role, item.duration, trim(item.detail))
-        +section(activities.title)
+        +section('activities', activities.title)
           each item in activities.items
             +item(item.name, item.role, item.duration, trim(item.detail))
     include ./includes/footer.jade

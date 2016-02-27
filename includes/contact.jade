@@ -6,12 +6,14 @@
     span (#{information.alias})
   p.dream= job
   ul.contact-list
-    li.website
-      span
-        img(src='assets/link.png', height="14")
-      a(href="http://#{information.link}")=information.link
     li.email
       span
         img(src='assets/email.png', height="9")
       span= mailer(information.email)
-  a.more 更多信息
+    li.website
+      span
+        img(src='assets/link.png', height="14")
+      a(href="http://#{information.link}")=information.link
+    
+  .more-info
+    a.more 更多信息

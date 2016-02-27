@@ -18,11 +18,14 @@ A small and light-weight resume generator based on Jade (a HTML pre-compile lang
 
 ## Features
 
+- Light weight. A few Node.js dependecies are required.
+- Responsive design. Both PC side and mobile side are supported.
 - Clean grammar of YAML. No ugly tags and extra curly braces or quotes.
 - Easy to use. All you have to do are filling the `data.yml` and running the simple command.
 - Themes. More themes will be designed and developed in the future.
 
 ## Example
 Demo - [My Resume](http://yickli.github.io/Resume).
+
 ## License
 Resume Generator is released under the MIT license. See LICENCE for details.
