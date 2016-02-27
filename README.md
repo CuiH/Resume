@@ -19,6 +19,7 @@ A small and light-weight resume generator based on Jade (a HTML pre-compile lang
 ## Features
 
 - Light weight. A few Node.js dependecies are required.
+- Print supported. It is quite easy to convert into a PDF version.
 - Responsive design. Both PC side and mobile side are supported.
 - Clean grammar of YAML. No ugly tags and extra curly braces or quotes.
 - Easy to use. All you have to do are filling the `data.yml` and running the simple command.
