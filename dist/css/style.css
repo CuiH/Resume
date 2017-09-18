@@ -17,7 +17,7 @@ body {
 
 }
 .wrapper {
-  max-width: 940px;
+  max-width: 990px;
   padding: 80px 60px 40px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -108,25 +108,46 @@ div[class^="col"] {
 .col-2 {
   width: 40%;
   position: relative;
+  height: auto!important;
+  box-sizing: border-box;
 }
 
 .col-4 {
   width: 60%;
+  box-sizing: border-box;
 }
 
 section {
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+}
+
+section:last-child {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#projects {
+  margin-left: 5%;
+}
+
+.myy{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.chhhh{
+  margin-top: 70px;
 }
 .section-title {
   color: #3983AA;
   letter-spacing: 4px;
-  font-size: 12px;
-  margin-bottom: 18px;
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
 .item {
-  margin-bottom: 38px;
+  margin-bottom: 25px;
 }
 .item:last-child {
   margin-bottom: 0;
@@ -135,20 +156,24 @@ section {
   color: #3C3A4C;
 }
 
+.section2 {
+  margin-bottom: 40px;
+}
+
 .item-title {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .item-subtitle {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 200;
   margin-top: 4px;
 }
 .item-description {
   color: #787787;
-  font-size: 13px;
-  line-height: 1.75;
+  font-size: 18px;
+  line-height: 1.60;
   margin-top: 16px;
 }
 
@@ -167,12 +192,12 @@ section {
   margin-bottom: 4px;
 }
 .contact {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .contact-list li {
   
   color: #3C3A4C;
-  font-size: 12px;
+  font-size: 18px;
   margin-bottom: 6px;
   position: relative;
 }
@@ -186,7 +211,7 @@ section {
 }
 h1 {
   color: #48456E;
-  font-size: 22px;
+  font-size: 32px;
   letter-spacing: 2px;
   margin-bottom: 2px;
 }
@@ -196,7 +221,7 @@ h1 span:last-child {
   text-transform: uppercase;
 }
 .logo {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .contact-list a {
   text-decoration: none;
@@ -210,7 +235,7 @@ h1 span:last-child {
 
 .footer {
   cursor: pointer;
-  max-width: 940px;
+  max-width: 990px;
   margin: 30px auto 0 auto;
   padding-bottom: 80px;
   opacity: .4;
@@ -234,7 +259,7 @@ h1 span:last-child {
 }
 
 .left-col {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -438,6 +463,8 @@ key {
     width: 100%;
   }
 
+
+
   .mlist {
     width: 50%;
     margin-bottom: 0px;
@@ -453,7 +480,7 @@ key {
     padding: 10px 20px;
   }
   section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .left-col {
     position: relative;
@@ -503,6 +530,7 @@ key {
     height: 0;
   }
   .section-title {
+    font-size: 17px;
     margin-bottom: 20px;
   }
   .item-title {
@@ -517,7 +545,7 @@ key {
   .item-description {
     margin-top: 10px;
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 16px;
     color: #ccc;
     font-weight: 200;
   }

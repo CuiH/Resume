@@ -12,27 +12,21 @@ html(lang='zh-CN')
         include ./includes/contact.jade
         .left-col
           +section('education', education.title)
-            each item in education.experience
-              +item(item.school, item.major, item.duration)
-          +section('language', language.title)
-            each item in language.items
-              +item(item.name, item.level)
-          +section('skills', skills.title)
-            each item in skills.items
-              +mlist(item.name, item.children)
+            each item in education.items
+              +item(item.school, item.degree, item.duration, item.detail)
+          +section('experience', experience.title)
+            each item in experience.items
+              +item(item.name, item.brief, item.duration, item.detail)
           +section('awards', awards.title)
             each item in awards.contests
               +item(item.name, item.award, item.time, item.description)
+         
       .col-4
-        +section('experiences', experiences.title)
-          each item in experiences.jobs
-            +item(item.title, item.company, item.duration, trim(item.detail))
+        
         +section('projects', projects.title)
           each item in projects.items
             +item(item.name, item.role, item.duration, trim(item.detail))
-        +section('activities', activities.title)
-          each item in activities.items
-            +item(item.name, item.role, item.duration, trim(item.detail))
+        
     include ./includes/footer.jade
     include ./includes/popover.jade
     script(src="js/main.js")

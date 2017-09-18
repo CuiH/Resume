@@ -2,7 +2,7 @@ mixin item(title, subtitle, ps, description)
   .item
     h3.item-title= title
     h4.item-subtitle
-      span.item-subtitle-0= subtitle
+      span.item-subtitle-0!= subtitle
       if ps
         span.item-seperator |
         span.item-duration= ps

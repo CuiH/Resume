@@ -3,17 +3,17 @@
   img.logo(src="#{logo_url}", width="130")
   h1
     span= information.name
-    span (#{information.alias})
   p.dream= job
   ul.contact-list
     li.email
       span
         img(src='assets/email.png', height="9")
-      span= mailer(information.email)
-    li.website
+      span= information.email
+    li.phone
       span
-        img(src='assets/link.png', height="14")
-      a(href="http://#{information.link}")=information.link
-    
-  .more-info
-    a.more 更多信息
+        img(src='assets/phone.png', height="9")
+      span= information.phone
+    li.link
+      span
+        img(src='assets/link.png', height="9")
+      span= information.link
