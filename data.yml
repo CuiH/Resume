@@ -9,6 +9,11 @@ information:
   phone: (+1) 346-221-6669
   link: http://cuih.xyz
 
+target:
+  title: TARGET
+  items:
+    - name: Software Engineer (intern)
+
 education:
   title: EDUCATION
   items:
@@ -40,6 +45,13 @@ awards:
     - name: Mathematical Contest In Modeling
       award: Second Prize (Honorable Mention)
       time: Feb 2016
+
+interests:
+  title: INTERESTS
+  items:
+    - name: >
+        Computer Networks<br>
+        Web Development
 
 projects:
   title: PROJECTS

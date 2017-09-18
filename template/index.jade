@@ -11,6 +11,9 @@ html(lang='zh-CN')
       .col-2
         include ./includes/contact.jade
         .left-col
+          +section('target', target.title)
+            each item in target.items
+              +item(item.name)
           +section('education', education.title)
             each item in education.items
               +item(item.school, item.degree, item.duration, item.detail)
@@ -20,6 +23,9 @@ html(lang='zh-CN')
           +section('awards', awards.title)
             each item in awards.contests
               +item(item.name, item.award, item.time, item.description)
+          +section('interests', interests.title)
+            each item in interests.items
+              +item(item.name)
          
       .col-4
         
