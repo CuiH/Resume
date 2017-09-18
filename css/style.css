@@ -17,13 +17,13 @@ body {
 
 }
 .wrapper {
-  max-width: 940px;
+  max-width: 990px;
   padding: 80px 60px 40px;
   box-sizing: border-box;
   margin: 0 auto;
   overflow: hidden;
   background: rgba(255,255,255,.94);
-  box-shadow: 0 5px 10px rgba(0,0,0,.3);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
   border-radius: 2px;
 
   -webkit-animation-duration: .6s;
@@ -108,25 +108,46 @@ div[class^="col"] {
 .col-2 {
   width: 40%;
   position: relative;
+  height: auto!important;
+  box-sizing: border-box;
 }
 
 .col-4 {
   width: 60%;
+  box-sizing: border-box;
 }
 
 section {
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+}
+
+section:last-child {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#projects {
+  margin-left: 5%;
+}
+
+.myy{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.chhhh{
+  margin-top: 70px;
 }
 .section-title {
   color: #3983AA;
   letter-spacing: 4px;
-  font-size: 12px;
-  margin-bottom: 18px;
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
 .item {
-  margin-bottom: 38px;
+  margin-bottom: 25px;
 }
 .item:last-child {
   margin-bottom: 0;
@@ -135,20 +156,24 @@ section {
   color: #3C3A4C;
 }
 
+.section2 {
+  margin-bottom: 40px;
+}
+
 .item-title {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .item-subtitle {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 200;
   margin-top: 4px;
 }
 .item-description {
   color: #787787;
-  font-size: 13px;
-  line-height: 1.75;
+  font-size: 18px;
+  line-height: 1.60;
   margin-top: 16px;
 }
 
@@ -167,12 +192,12 @@ section {
   margin-bottom: 4px;
 }
 .contact {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .contact-list li {
   
   color: #3C3A4C;
-  font-size: 12px;
+  font-size: 18px;
   margin-bottom: 6px;
   position: relative;
 }
@@ -186,7 +211,7 @@ section {
 }
 h1 {
   color: #48456E;
-  font-size: 22px;
+  font-size: 32px;
   letter-spacing: 2px;
   margin-bottom: 2px;
 }
@@ -196,7 +221,7 @@ h1 span:last-child {
   text-transform: uppercase;
 }
 .logo {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .contact-list a {
   text-decoration: none;
@@ -210,18 +235,19 @@ h1 span:last-child {
 
 .footer {
   cursor: pointer;
-  max-width: 940px;
-  margin: 30px auto;
+  max-width: 990px;
+  margin: 30px auto 0 auto;
+  padding-bottom: 80px;
   opacity: .4;
   font-weight: 700;
-  text-shadow: 0 2px 1px rgba(0,0,0,.7);
+  text-shadow: 0 2px 1px rgba(50,50,50,.4);
   transition: opacity .3s;
 }
 .footer hr {
   width: 100px;
   margin-bottom: 6px;
-  border-bottom-color: rgba(255,255,255,.5);
-  border-top-color: rgba(0,0,0,.3);
+  border-bottom-color: rgba(255,255,255,.3);
+  border-top-color: rgba(0,0,0,.1);
 }
 .footer:hover {
   opacity: .9;
@@ -229,11 +255,11 @@ h1 span:last-child {
 
 .rights {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .left-col {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -338,12 +364,61 @@ h1 span:last-child {
   margin-bottom: 20px;
 }
 
+key {
+  display: inline-block;
+  color: #348AC7;
+  position: relative;
+  top: -1px;
+  text-shadow: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 16px;
+  height: 16px;
+  font-family: Courier, monospace;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 2px;
+  font-size: 10px;
+  background-color: #efefef;
+  border-color: #efefef;
+  -webkit-box-shadow: 0 4px 0 #749AC7, 0 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 0 #749AC7, 0 5px 2px rgba(0, 0, 0, 0.3);
+}
 .item-description a {
   color: #3DCED0;
   text-decoration: none;
 }
 .item-description a:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 769px) {
+  body {
+    padding: 0;
+  }
+  div[class^="col"] {
+    float: none;
+  }
+  .col-2, .col-4 {
+    width: 100%;
+    height: auto;
+  }
+  #education, #language, #skills, #awards {
+    float: left;
+    width: 50%;
+  }
+  .more {
+    margin-bottom: 100px;
+  }
+
+  .left-col {
+    position: relative;
+    bottom: auto;
+    overflow: hidden;
+  }
+  .mlist {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
 @media screen and (max-width: 500px) {
   body {
@@ -352,6 +427,49 @@ h1 span:last-child {
   div[class^="col"] {
     float: none;
   }
+
+  h1 {
+    text-align: center;
+
+  }
+
+  .wrapper {
+    border-radius: 0;
+  }
+
+  .footer {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .dream {
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+  .contact-list {
+    width: 230px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .more-info {
+    text-align: right;
+    width: 230px;
+    margin: 0 auto;
+  }
+  #education, #language, #skills, #awards {
+    float: left;
+    width: 100%;
+  }
+
+
+
+  .mlist {
+    width: 50%;
+    margin-bottom: 0px;
+  }
+
   .logo {
     margin-top: 50px;
   }
@@ -362,7 +480,7 @@ h1 span:last-child {
     padding: 10px 20px;
   }
   section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .left-col {
     position: relative;
@@ -373,20 +491,33 @@ h1 span:last-child {
 @media print {
   html {
     background: #fff;
+    padding: 0;
+    height: 99%;
+    margin: 0;
   }
   body {
     padding: 0;
+    height: 99%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .col-2 {
+    height: auto!important;
   }
   .contact {
     margin-bottom: 0;
+    transform: scale(.9);
+    transform-origin: 0 0;
   }
   .left-col {
     position: relative;
     bottom: auto;
   }
   .wrapper {
-    padding: 28px 16px;
+    padding: 28px 16px 0 16px;
     box-shadow: none;
+    margin: 0 auto;
   }
   .section-title {
     color: #29739A;
@@ -394,7 +525,12 @@ h1 span:last-child {
   section {
     margin-bottom: 30px;
   }
+  .popover, .footer {
+    display: none;
+    height: 0;
+  }
   .section-title {
+    font-size: 17px;
     margin-bottom: 20px;
   }
   .item-title {
@@ -409,16 +545,14 @@ h1 span:last-child {
   .item-description {
     margin-top: 10px;
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 16px;
     color: #ccc;
     font-weight: 200;
   }
   .dream, .mlist li {
     color: #ccc;
   }
-  .footer {
-    display: none;
-  }
+
   .col-2 {
     width: 42%;
   }
