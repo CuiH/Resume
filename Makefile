@@ -1,6 +1,7 @@
 deploy:
 	rm -r ~/tmp/dist
 	git checkout master
+	npm install
 	node index.js
 	git add --all
 	git commit -m "update source"
@@ -8,6 +9,7 @@ deploy:
 	git checkout gh-pages
 	rm -r ./*
 	cp -r ~/tmp/dist/* ./
+	cp ~/tmp/CNAME ./
 	git add --all
 	git commit -m "deploy resume"
 	git push origin gh-pages
