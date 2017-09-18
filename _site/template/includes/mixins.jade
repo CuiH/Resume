@@ -1,0 +1,22 @@
+mixin item(title, subtitle, ps, description)
+  .item
+    h3.item-title= title
+    h4.item-subtitle
+      span.item-subtitle-0!= subtitle
+      if ps
+        span.item-seperator |
+        span.item-duration= ps
+    p.item-description!= description
+
+mixin section(id, title)
+  section(id="#{id}")
+    h2.section-title= title
+    if block
+      block
+
+mixin mlist(title, list)
+  .mlist
+    h3.list-title= title
+    ul
+      each item in list
+        li= item

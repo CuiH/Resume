@@ -1,0 +1,19 @@
+.contact
+  - var mailer = function(str) {return str.replace('@', ' at ').replace('.', ' dot ');};
+  img.logo(src="#{logo_url}", width="130")
+  h1
+    span= information.name
+  p.dream= job
+  ul.contact-list
+    li.email
+      span
+        img(src='assets/email.png', height="9")
+      span= information.email
+    li.phone
+      span
+        img(src='assets/phone.png', height="9")
+      span= information.phone
+    li.link
+      span
+        img(src='assets/link.png', height="9")
+      span= information.link

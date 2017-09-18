@@ -1,0 +1,14 @@
+{
+  "name": "Resume",
+  "version": "1.0.0",
+  "description": "A resume generator based on Jade and YAML.",
+  "author": "Yujie",
+  "license": "MIT",
+  "devDependencies": {
+    "jade": "^1.11.0",
+    "ncp": "^2.0.0",
+    "open": "0.0.5",
+    "rimraf": "^2.5.2",
+    "yamljs": "^0.2.5"
+  }
+}

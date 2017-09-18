@@ -1,0 +1,91 @@
+title: RESUME | Hao Cui
+
+theme: default
+logo_url: 'assets/logo.png'
+
+information:
+  name: Hao Cui
+  email: hcui1995@gmail.com
+  phone: (+1)346-221-6669
+  link: http://cuih.xyz
+
+education:
+  title: EDUCATION
+  items:
+    - school: Rice University, Houston, TX
+      degree: Computer Science (MCS)
+      duration: 2017 - Now
+    - school: Sun Yat-sen University, China
+      degree: Bachelor of Engineering
+      duration: 2013 - 2017
+      detail: >
+        Major: Software Engineering<br>
+        GPA: 3.8/4.0
+
+experience:
+  title: EXPERIENCE
+  items:
+    - name: Teaching Assistant
+      brief: Course Software Engineering Training
+      detail: Gave lectures about Java and answered questions from students.
+      duration: Summer 2016
+    - name: Student Association
+      brief: Maxcell, Member
+      detail: Offered free lectures and computer repairs on campus
+      duration: Oct 2013 - Feb 2015
+      
+awards:
+  title: AWARDS
+  contests:
+    - name: Mathematical Contest In Modeling
+      award: Second Prize (Honorable Mention)
+      time: Feb 2016
+
+projects:
+  title: PROJECTS
+  items:
+    - name: The Lost Relic
+      role: Chief Programmer
+      duration: Mar 2015 - Jun 2015
+      detail: >
+        <strong>An adventure and puzzle game based on cocos2d.</strong><br>
+        Implemented the moving and colliding logic.<br>
+        Implemented the welcome page and the game page (UI & code).
+
+    - name: X-Timer
+      role: Chief Programmer
+      duration: Aug 2015 - Nov 2015
+      detail: >
+        <strong>An Android APP that records detailed app-usage information and offers timer service.</strong><br>
+        Designed the Data Model (using JSON as local storage).<br>
+        Implemented most of the Business Logic Layer.<br>
+        Implemented the data-recorder, the timer and the data display page.
+
+    - name: NextFilm
+      role: Architect & Chief Programmer
+      duration: Mar 2016 - Jun 2016
+      detail: >
+        <strong>An online film ticketing platform based on Spring & Spring MVC & Hibernate.</strong><br>
+        Designed the Data Model based on MySQL.<br>
+        Implemented the whole Data Access Layer and Business Logic Layer.<br>
+        Designed and implemented a set of RESTFul APIs.<br>
+        Implemented a Backstage Management System.
+
+    - name: Hadark
+      role: Architect & Programmer
+      duration: Jun 2016 - Aug 2016
+      detail: >
+        <strong>A Cloud Computing platform based on Hadoop & Spark & OpenStack, with a web server using django-rest-framework.</strong><br>
+        Designed the Data Model based on MySQL.<br>
+        Implemented most of the Business Logic Layer.<br>
+        Designed and implemented a set of RESTFul APIs.
+
+    - name: More Than Sports
+      role: Full-stack Developer
+      duration: Mar 2017 - Jun 2017
+      detail: >
+        <strong>A group managing and socializing platform for sports lovers, based on Augular4 (front-end) and Node.js (back-end).</strong><br>
+        Designed the Data Model based on MySQL.<br>
+        Implemented a notification system, a group managing system, an activity system and a billing system.<br>
+        Designed and implemented a set of RESTFul APIs.<br>
+        All other works.
