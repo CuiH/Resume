@@ -119,7 +119,7 @@ div[class^="col"] {
 
 section {
   overflow: hidden;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 section:last-child {
@@ -192,7 +192,7 @@ section:last-child {
   margin-bottom: 4px;
 }
 .contact {
-  margin-bottom: 80px;
+  margin-bottom: 55px;
 }
 .contact-list li {
   
