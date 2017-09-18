@@ -1,6 +1,8 @@
 # Resume Generator
 A small and light-weight resume generator based on Jade (a HTML pre-compile language) and YAML(a clean markup language). Using this generator, a static web page of your resume is built quickly with just only one command `node index.js`.
 
+![screenshot](https://raw.githubusercontent.com/yickli/Resume/master/screenshot.png)
+
 ## Usage
 1. Download and install dependencies. Ensuring you have already installed Node.js.
   

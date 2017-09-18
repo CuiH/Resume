@@ -1,7 +1,7 @@
 deploy:
 	rm -r ~/tmp/dist
 	git checkout master
-	jekyll build
+	node index.js
 	git add --all
 	git commit -m "update source"
 	cp -r dist/ ~/tmp/
