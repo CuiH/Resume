@@ -9,7 +9,7 @@ deploy:
 	git checkout gh-pages
 	rm -r ./*
 	cp -r ~/tmp/dist/* ./
-	cp ~/tmp/CNAME ./
+	cp ~/tmp/CNAME/Resume/CNAME ./
 	git add --all
 	git commit -m "deploy resume"
 	git push origin gh-pages
