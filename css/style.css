@@ -119,7 +119,7 @@ div[class^="col"] {
 }
 
 section {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-bottom: 60px;
 }
 
@@ -171,7 +171,7 @@ section:last-child {
   color: #787787;
   font-size: 18px;
   line-height: 1.60;
-  margin-top: 16px;
+  margin-top: 9.5px;
 }
 
 .item-seperator {
