@@ -51,18 +51,22 @@ interests:
   items:
     - name: >
         Computer Networks<br>
+        Software Development<br>
         Web Development
 
 projects:
   title: PROJECTS
   items:
-    - name: The Lost Relic
-      role: Chief Programmer
-      duration: Mar 2015 - Jun 2015
+    - name: More Than Sports
+      role: Full-stack Developer
+      duration: Mar 2017 - Jun 2017
       detail: >
-        <strong>An adventure and puzzle game based on cocos2d.</strong><br>
-        Implemented the moving and colliding logic.<br>
-        Implemented the welcome page and the game page (UI & code).
+        <strong>A group managing and social platform for sports lovers, based on Augular4 (front-end) and Node.js (back-end).</strong><br>
+        Designed the Data Model based on MySQL.<br>
+        Designed and implemented a set of RESTFul APIs.<br>
+        Developed a notification system to inform users of important messages.<br>
+        Developed a billing system to generate and publish activity bills.<br>
+        All other works.
 
     - name: X-Timer
       role: Chief Programmer
@@ -70,18 +74,28 @@ projects:
       detail: >
         <strong>An Android APP that records detailed app-usage information and offers timer service.</strong><br>
         Designed the Data Model (using JSON as local storage).<br>
-        Implemented most of the Business Logic Layer.<br>
-        Implemented the data-recorder, the timer and the data display page.
+        Implemented a background service to monitor app switching and to autosave data.<br>
+        Implemented a timer to alert user when the usage time of a app exceeds the customized value.<br>
+        Implemented the splash page, the data display page, and the setting page (UI & logic).
 
     - name: NextFilm
       role: Architect & Chief Programmer
       duration: Mar 2016 - Jun 2016
       detail: >
-        <strong>An online film ticketing platform based on Spring & Spring MVC & Hibernate.</strong><br>
+        <strong>An online movie ticketing platform based on Spring & Spring MVC & Hibernate.</strong><br>
         Designed the Data Model based on MySQL.<br>
-        Implemented the whole Data Access Layer and Business Logic Layer.<br>
+        Implemented the entire Data Access Layer and Business Logic Layer.<br>
         Designed and implemented a set of RESTFul APIs.<br>
-        Implemented a Backstage Management System.
+        Implemented a logging system with Log4j to record important operations.<br>
+        Developed a Backstage Management System to help cinemas manage movies and arrange screenings.
+
+    - name: The Lost Relic
+      role: Chief Programmer
+      duration: Mar 2015 - Jun 2015
+      detail: >
+        <strong>An adventure and puzzle game based on cocos2d.</strong><br>
+        Implemented the movement and collision dection logic.<br>
+        Implemented the welcome page and the game page (UI & logic).
 
     - name: Hadark
       role: Architect & Programmer
@@ -91,13 +105,3 @@ projects:
         Designed the Data Model based on MySQL.<br>
         Implemented most of the Business Logic Layer.<br>
         Designed and implemented a set of RESTFul APIs.
-
-    - name: More Than Sports
-      role: Full-stack Developer
-      duration: Mar 2017 - Jun 2017
-      detail: >
-        <strong>A group managing and socializing platform for sports lovers, based on Augular4 (front-end) and Node.js (back-end).</strong><br>
-        Designed the Data Model based on MySQL.<br>
-        Implemented a notification system, a group managing system, an activity system and a billing system.<br>
-        Designed and implemented a set of RESTFul APIs.<br>
-        All other works.
