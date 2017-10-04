@@ -6,7 +6,7 @@ logo_url: 'assets/logo.png'
 information:
   name: HAO CUI
   email: hcui1995@gmail.com
-  phone: (+1)346-221-6669
+  phone: (+1) 346-221-6669
   link: http://cuih.xyz
 
 target:
@@ -94,7 +94,7 @@ projects:
       duration: Mar 2015 - Jun 2015
       detail: >
         <strong>An adventure and puzzle game based on cocos2d.</strong><br>
-        Implemented the movement and collision detection logic.<br>
+        Implemented the moving and collision detecting logic.<br>
         Implemented the welcome page and the game page (UI & logic).
 
     - name: Hadark
