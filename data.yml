@@ -58,7 +58,7 @@ projects:
   title: PROJECTS
   items:
     - name: More Than Sports
-      role: Full-stack Developer
+      role: Full-Stack Developer
       duration: Mar 2017 - Jun 2017
       detail: >
         <strong>A group managing and social platform for sports lovers, based on Augular4 (front-end) and Node.js (back-end).</strong><br>
@@ -94,7 +94,7 @@ projects:
       duration: Mar 2015 - Jun 2015
       detail: >
         <strong>An adventure and puzzle game based on cocos2d.</strong><br>
-        Implemented the movement and collision dection logic.<br>
+        Implemented the movement and collision detection logic.<br>
         Implemented the welcome page and the game page (UI & logic).
 
     - name: Hadark
